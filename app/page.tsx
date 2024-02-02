@@ -69,7 +69,7 @@ export default function Home() {
                         title={socialMedia.title}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-3xl overflow-none hover:scale-110 text-amber-950 transition-all duration-300"
+                        className="text-3xl overflow-none active:scale-110 sm:hover:scale-110 text-amber-950 transition-all duration-300"
                     >
                         {socialMedia.icon}
                     </a>

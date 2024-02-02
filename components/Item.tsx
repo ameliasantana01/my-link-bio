@@ -14,7 +14,7 @@ const Item = ({
     const imageClasses = 'pl-3'
     return (
         <a
-            className="relative flex flex-row w-full space-x-2 h-full justify-center items-center px-6 py-4 text-white bg-rose-600 rounded-full border-2 border-rose-600 border-solid hover:bg-white hover:text-rose-600 transition-all duration-300"
+            className="relative flex flex-row w-full space-x-2 h-full justify-center items-center px-6 py-4 text-white bg-rose-600 rounded-full border-2 border-rose-600 border-solid active:bg-white active:text-rose-600 sm:hover:bg-white sm:hover:text-rose-600 transition-all duration-300"
             target="_blank"
             rel="noopener noreferrer"
             href={url}
