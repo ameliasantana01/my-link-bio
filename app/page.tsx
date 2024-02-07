@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { BsInstagram } from 'react-icons/bs'
 import { IoLogoTiktok } from 'react-icons/io5'
-import { MdOutlineEmail } from 'react-icons/md'
+import { MdOutlineEmail, MdHowToVote } from 'react-icons/md'
 import { BiSolidDonateHeart } from 'react-icons/bi'
 import { RiMessage3Fill } from 'react-icons/ri'
 
@@ -36,6 +36,11 @@ export default function Home() {
             img: '/img/amelia-alt.webp',
             text: 'Propuestas para nuestra ciudad',
             url: 'https://docs.google.com/document/d/1-pvvIFhOggPpFQ5wr7hH1Dm7wPjHs4CDgMJc7_hLOw8/',
+        },
+        {
+            img: '/img/logo-jce.webp',
+            text: 'Conoce donde votas',
+            url: 'https://elecciones2024.jce.gob.do/verificate',
         },
         {
             icon: <BiSolidDonateHeart className="text-3xl" />,
